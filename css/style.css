@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+main{
+    height: 70vh;
+    width: 80vw;
+    position: relative;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo-section{
+    flex: 0 0 50%;
+    text-align: left;
+}
+.form-section{
+    flex: 0 0 40%;
+    text-align: center;
+}
+.logo-section img{
+    max-width: 300px;
+}
+.logo-section h2{
+    font: 26px;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 32px;
+}
+.form-section .form-container{
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 400px;
+}
+.form-section .form-container input, .form-section .form-container .btn-login{
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+
+}
+.form-section .form-container input{
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
+}
+.form-section .form-container input:focus{
+    border-color: #1877f2;
+   
+}
+.form-section .form-container .btn-login{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 16px;
+    font-weight: 700;
+}
+.form-section .form-container a{
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+}
+.form-section .form-container .btn-new{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+.form-section .form-container a:hover{
+    text-decoration: underline;
+}
+.form-section p{
+    font-size: 14px;
+
+}
+.form-section p a{
+    text-decoration: none;
+    color: #1c1e21;
+}
+.form-section p a:hover{
+    text-decoration: underline;
+}
+.form-section .form-container .btn-new:hover{
+    cursor: pointer;
+    background-color: #1b7c07;
+}
+.form-section .form-container .btn-login:hover{
+    background-color: #0c55b4;
+    cursor: pointer;
+}
